@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>verificador de idade</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <nav class="nav">
+        <h1>Verificador de idade</h1>
+      <ul>
+        <li class="menu-lista"><a href="CV Thiago Carneiro Mesquita (1).pdf" target="_blank">Currículo</a></li>
+        <li class="menu-lista"><a href="https://github.com/Thiaguiner/verificador_idade" target="_blank">Repositório </a></li>
+        <li class="menu-lista"><a href="https://www.linkedin.com/in/thiagocarneir0/" target="_blank">Dev</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="img-left">
+      <img class="img-card" src="img/verde.svg" alt="">
+    </div>
+    <section class="right-card">
+      <div class="card">
+        <h1>Verifique aqui</h1>
+        <div class="input-ano">
+          Ano de Nascimento:<input type="number" name="txtano" id="txtano">
+        </div>
+        <div class="input-sex">
+          <input type="radio" name="radsex" id="mas">
+          <label for="mas">Masculino</label>
+          <input type="radio" name="radsex" id="fem">
+          <label for="fem">Feminino</label>
+        </div>
+        <div class="btn">
+        <input type="button" value="Verificar" onclick="verificar()">
+      </div>
+      <div class="res">
+        Preencha seus dados acima para obter o resultado!
+      </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!--  <div class="card">
+          <h1>Verifique sua idade</h1>
+          <div class="ano">Ano de nascimento:
+            <input type="number" name="txtano" id="txtano">
+          </div>
+          <div class="genero">
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+          </div>
+          <div class="button">
+            <button onclick="verificar()">
+              Verificar
+            </button>
+          </div>
+          <div class="res">
+            Preencha os dados acima para ver o resultado
+          </div>
+        </div> -->
